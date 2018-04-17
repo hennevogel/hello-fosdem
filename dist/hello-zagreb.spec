@@ -21,7 +21,7 @@ the functionality of the Open Build Service
 
 %install
 mkdir -p %{buildroot}%{_bindir}
-install -m 755 %{name} %{buildroot}%{_bindir}/%{name}
+install -m 755 %{name}.rb %{buildroot}%{_bindir}/%{name}
 
 
 %files
